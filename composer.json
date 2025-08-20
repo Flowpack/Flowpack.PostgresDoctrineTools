@@ -1,0 +1,12 @@
+{
+    "name": "flowpack/postgres-doctrine-tools",
+    "type": "neos-package",
+    "require": {
+        "martin-georgiev/postgresql-for-doctrine": "^3.4.1"
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Flowpack.PostgresDoctrineTools"
+        }
+    }
+}

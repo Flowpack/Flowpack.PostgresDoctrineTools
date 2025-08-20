@@ -1,0 +1,76 @@
+Neos:
+  Flow:
+    persistence:
+      doctrine:
+        dbal:
+          mappingTypes:
+            bigint_array:
+              dbType: 'bigint[]'
+              className: 'MartinGeorgiev\Doctrine\DBAL\Types\BigIntArray'
+            bool_array:
+              dbType: 'bool[]'
+              className: 'MartinGeorgiev\Doctrine\DBAL\Types\BooleanArray'
+            cidr:
+              dbType: 'cidr'
+              className: 'MartinGeorgiev\Doctrine\DBAL\Types\Cidr'
+            cidr_array:
+              dbType: 'cidr[]'
+              className: 'MartinGeorgiev\Doctrine\DBAL\Types\CidrArray'
+            daterange:
+              dbType: 'daterange'
+              className: 'MartinGeorgiev\Doctrine\DBAL\Types\DateRange'
+            double_precision_array:
+              dbType: 'double precision[]'
+              className: 'MartinGeorgiev\Doctrine\DBAL\Types\DoublePrecisionArray'
+            inet:
+              dbType: 'inet'
+              className: 'MartinGeorgiev\Doctrine\DBAL\Types\Inet'
+            inet_array:
+              dbType: 'inet[]'
+              className: 'MartinGeorgiev\Doctrine\DBAL\Types\InetArray'
+            int4range:
+              dbType: 'int4range'
+              className: 'MartinGeorgiev\Doctrine\DBAL\Types\Int4Range'
+            int8range:
+              dbType: 'int8range'
+              className: 'MartinGeorgiev\Doctrine\DBAL\Types\Int8Range'
+            integer_array:
+              dbType: 'integer[]'
+              className: 'MartinGeorgiev\Doctrine\DBAL\Types\IntegerArray'
+            jsonb:
+              dbType: 'jsonb'
+              className: 'MartinGeorgiev\Doctrine\DBAL\Types\Jsonb'
+            jsonb_array:
+              dbType: 'jsonb[]'
+              className: 'MartinGeorgiev\Doctrine\DBAL\Types\JsonbArray'
+            macaddr:
+              dbType: 'macaddr'
+              className: 'MartinGeorgiev\Doctrine\DBAL\Types\Macaddr'
+            macaddr_array:
+              dbType: 'macaddr[]'
+              className: 'MartinGeorgiev\Doctrine\DBAL\Types\MacaddrArray'
+            numrange:
+              dbType: 'numrange'
+              className: 'MartinGeorgiev\Doctrine\DBAL\Types\NumRange'
+            point:
+              dbType: 'point'
+              className: 'MartinGeorgiev\Doctrine\DBAL\Types\Point'
+            point_array:
+              dbType: 'point[]'
+              className: 'MartinGeorgiev\Doctrine\DBAL\Types\PointArray'
+            real_array:
+              dbType: 'real[]'
+              className: 'MartinGeorgiev\Doctrine\DBAL\Types\RealArray'
+            smallint_array:
+              dbType: 'smallint[]'
+              className: 'MartinGeorgiev\Doctrine\DBAL\Types\SmallIntArray'
+            text_array:
+              dbType: 'text[]'
+              className: 'MartinGeorgiev\Doctrine\DBAL\Types\TextArray'
+            tsrange:
+              dbType: 'tsrange'
+              className: 'MartinGeorgiev\Doctrine\DBAL\Types\TsRange'
+            tstzrange:
+              dbType: 'tstzrange'
+              className: 'MartinGeorgiev\Doctrine\DBAL\Types\TstzRange'
+
