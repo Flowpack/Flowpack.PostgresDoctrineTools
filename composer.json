@@ -1,6 +1,7 @@
 {
     "name": "flowpack/postgres-doctrine-tools",
     "type": "neos-package",
+    "license": "MIT",
     "require": {
         "martin-georgiev/postgresql-for-doctrine": "^3.4.1"
     },
